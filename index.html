@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Venus</title>
+
+  <!-- para icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- para el carrusel -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <link rel="shortcut icon" href="img/logor.png" type="image/x-icon" />
+</head>
+
+<body>
+  <!-- #region ENCABEZADO -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <img src="img/logob.png" alt="" class="nav__logo-img" />
+        VENUS
+      </a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#inicio" class="nav__link active-link">Inicio</a>
+          </li>
+          <li class="nav__item">
+            <a href="#sobre" class="nav__link">Sobre Nosotros</a>
+          </li>
+          <li class="nav__item">
+            <a href="#producto" class="nav__link">Productos</a>
+          </li>
+          <li class="nav__item">
+            <a href="#nuevo" class="nav__link">Nuevo</a>
+          </li>
+          <a href="#" class="button button--ghost">Contáctanos</a>
+        </ul>
+        <div class="nav__close" id="nav-close">
+          <i class="bx bx-x"></i>
+        </div>
+        <img src="img/nav-img.png" alt="" class="nav__img" />
+      </div>
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-grid-alt"></i>
+      </div>
+    </nav>
+  </header>
+  <!-- #endregion -->
+  
+  <!-- #region Principal-->
+  <main class="main">
+    
+    <!-- Menu inicial estucrua carrusel(swiper)-->
+    <section class="home container" id="inicio">
+      <div class="swiper home-swiper">
+        <div class="swiper-wrapper">
+          <!-- 1 -->
+          <section class="swiper-slide">
+            <div class="home__content grid">
+              <div class="home__group">
+                <img src="img/header1.png" alt="" class="home__img" />
+                <div class="home__indicator"></div>
+
+                <div class="home__details-img">
+                  <h4 class="home__details-title">Lipstick</h4>
+                  <span class="home__details-subtitle">
+                    Labial rosado mate</span>
+                </div>
+              </div>
+
+              <div class="home__data">
+                <h3 class="home__subtitle">#1 Labial rosado</h3>
+                <h1 class="home__title">
+                  LABIAL <br />
+                  ROSADO <br />
+                  MATE
+                </h1>
+                <p class="home__description">
+                  Un hermoso labial rosado mate para que tus labios se vean increibles
+                  en cualquier momento, con productos naturales.
+                </p>
+
+                <div class="home__buttons">
+                  <a href="#" class="button"> Reservar ahora</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- 2 -->
+          <section class="swiper-slide">
+            <div class="home__content grid">
+              <div class="home__group">
+                <img src="img/header2.png" alt="" class="home__img" />
+                <div class="home__indicator"></div>
+
+                <div class="home__details-img">
+                  <h4 class="home__details-title">Matte Lip Gloss</h4>
+                  <span class="home__details-subtitle">
+                    Contiene 6 diferentes colores mates para ti.</span>
+                </div>
+              </div>
+
+              <div class="home__data">
+                <h3 class="home__subtitle">#2 Brillo labial</h3>
+                <h1 class="home__title">
+                  JUEGO <br />
+                  DE BRILLO <br />
+                  LABIAL
+                </h1>
+                <p class="home__description">
+                  Kit de brillo labial vegano líquido con 6 colores diferentes, excelentes para tus 
+                  salidas casuales o para cualquier momento. ¡Luce tus labios!
+                </p>
+
+                <div class="home__buttons">
+                  <a href="#" class="button">Reservar Ahora</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- 3 -->
+          <section class="swiper-slide">
+            <div class="home__content grid">
+              <div class="home__group">
+                <img src="img/header3.png" alt="" class="home__img" />
+                <div class="home__indicator"></div>
+
+                <div class="home__details-img">
+                  <h4 class="home__details-title">Contour Palette</h4>
+                  <span class="home__details-subtitle">Contiene 3 colores mate</span>
+                </div>
+              </div>
+
+              <div class="home__data">
+                <h3 class="home__subtitle">#3 Paleta para rostro</h3>
+                <h1 class="home__title">
+                  PALETA <br />
+                  DE <br />
+                  CONTORNO
+                </h1>
+                <p class="home__description">
+                  Una excelente paleta de contorno con 3 colores más una brocha, con una buena pigmentación. 
+                  Perfecta para cualquier ocasión.
+                </p>
+
+                <div class="home__buttons">
+                  <a href="#" class="button">Reservar Ahora</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!--Categirias-->
+    <section class="section category">
+      <h2 class="section__title">
+        Ofrecemos <br />
+      </h2>
+
+      <div class="category__container container grid">
+        <div class="category__data">
+          <img src="img/calidad.png" alt="" class="category__img" />
+          <h3 class="category__title">Calidad</h3>
+          <p class="category__description">
+            En Make Up encontrarás productos de calidad.
+          </p>
+        </div>
+
+        <div class="category__data">
+          <img src="img/precio.png" alt="" class="category__img" />
+          <h3 class="category__title">Preciasos</h3>
+          <p class="category__description">
+            Todos los productos a increibles precios.
+          </p>
+        </div>
+
+        <div class="category__data">
+          <img src="img/delivery.png" alt="" class="category__img" />
+          <h3 class="category__title">Delivery</h3>
+          <p class="category__description">
+            LLegamos hasta la puerta de tu casa.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Acerca de-->
+    <section class="section about" id="sobre">
+      <div class="about__container container grid">
+        <div class="about__data">
+          <h2 class="section__title about__title">
+            Acerca de 
+            <br />
+            Make Up
+          </h2>
+          <p class="about__description">
+            Somos una empresa dedica a la venta de productos de mquillaje y cuidado
+            personal, nuestros productos son de buena calidad y los encontrarás a un buen precio.
+            Porque queremos que te sientas bien contigo mismx ¡Confia en nosotros!
+          </p>
+          <a href="#" class="button"> Saber más</a>
+        </div>
+
+        <img src="img/logo.png" alt="" class="about__img" />
+      </div>
+    </section>
+
+    <!-- Productos -->
+    <section class="section product" id="producto">
+      <h2 class="section__title">Productos</h2>
+
+      <div class="product__container container grid">
+        <div class="product__content">
+          <img src="img/producto1.png" alt="" class="product__img" />
+          <h3 class="product__title">Sombras</h3>
+          <span class="product__subtitle">de ojos</span>
+          <span class="product__price">S/15.90</span>
+          <button class="button product__button">
+            <i class="bx bx-cart-alt product__icon"></i>
+          </button>
+        </div>
+
+        <div class="product__content">
+          <img src="img/producto2.png" alt="" class="product__img" />
+          <h3 class="product__title">Rimel</h3>
+          <span class="product__subtitle">para pestañas</span>
+          <span class="product__price">S/10.90</span>
+          <button class="button product__button">
+            <i class="bx bx-cart-alt trick__icon"></i>
+          </button>
+        </div>
+
+        <div class="product__content">
+          <img src="img/producto3.png" alt="" class="product__img" />
+          <h3 class="product__title">Rubor</h3>
+          <span class="product__subtitle">rosado</span>
+          <span class="product__price">S/17.90</span>
+          <button class="button product__button">
+            <i class="bx bx-cart-alt product__icon"></i>
+          </button>
+        </div>
+
+        <div class="product__content">
+          <img src="img/producto4.png" alt="" class="product__img" />
+          <h3 class="product__title">Brillo labial</h3>
+          <span class="product__subtitle">rosado</span>
+          <span class="product__price">S/10.90</span>
+          <button class="button product__button">
+            <i class="bx bx-cart-alt product__icon"></i>
+          </button>
+        </div>
+
+        <div class="product__content">
+          <img src="img/producto5.png" alt="" class="product__img" />
+          <h3 class="product__title">Enchinador</h3>
+          <span class="product__subtitle">de pestañas</span>
+          <span class="product__price">S7.00</span>
+          <button class="button product__button">
+            <i class="bx bx-cart-alt product__icon"></i>
+          </button>
+        </div>
+
+        <div class="product__content">
+          <img src="img/producto6.png" alt="" class="product__img" />
+          <h3 class="product__title">Base</h3>
+          <span class="product__subtitle">de rostro</span>
+          <span class="product__price">S/30.90</span>
+          <button class="button product__button">
+            <i class="bx bx-cart-alt product__icon"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+    
+    <!--Descuentos-->
+    <section class="section discount">
+      <div class="discount__container container grid">
+        <div class="discount__data">
+          <h2 class="discount__title">
+            50% de descuento <br />
+
+            Ingresa ahora
+          </h2>
+          <a href="#" class="button">Ir a nuevo</a>
+        </div>
+
+        <img src="img/descuento.png" alt="" class="discount__img" />
+      </div>
+    </section>
+
+    <!--Nuevo -->
+    <section class="section new" id="nuevo">
+      <h2 class="section__title">Los más nuevo</h2>
+
+      <div class="new__container container">
+        <div class="swiper new-swiper">
+          <div class="swiper-wrapper">
+            <div class="new__content swiper-slide">
+              <div class="new__tag">Nuevo</div>
+              <img src="img/nuevo2.png" alt="" class="new__img" />
+              <h3 class="new__title">Brillo rosado</h3>
+              <span class="new__subtitle">para los ojos</span>
+
+              <div class="new__prices">
+                <span class="new__price">$14.90</span>
+                <span class="new__discount">$18.90</span>
+              </div>
+
+              <button class="button new__button">
+                <i class="bx bx-cart-alt new__icon"></i>
+              </button>
+            </div>
+
+            <div class="new__content swiper-slide">
+              <div class="new__tag">Nuevo</div>
+              <img src="img/nuevo1.png" alt="" class="new__img" />
+              <h3 class="new__title">Sobras de ojos</h3>
+              <span class="new__subtitle">rosados</span>
+
+              <div class="new__prices">
+                <span class="new__price">$28.90</span>
+                <span class="new__discount">$35.90</span>
+              </div>
+
+              <button class="button new__button">
+                <i class="bx bx-cart-alt new__icon"></i>
+              </button>
+            </div>
+
+            <div class="new__content swiper-slide">
+              <div class="new__tag">Nuevo</div>
+              <img src="img/nuevo3.png" alt="" class="new__img" />
+              <h3 class="new__title">Limpiador de</h3>
+              <span class="new__subtitle">brochas</span>
+
+              <div class="new__prices">
+                <span class="new__price">$14.90</span>
+                <span class="new__discount">$18.90</span>
+              </div>
+
+              <button class="button new__button">
+                <i class="bx bx-cart-alt new__icon"></i>
+              </button>
+            </div>
+
+            <div class="new__content swiper-slide">
+              <div class="new__tag">Nuevo</div>
+              <img src="img/nuevo4.png" alt="" class="new__img" />
+              <h3 class="new__title">Polvo Compacto</h3>
+              <span class="new__subtitle">para rostro</span>
+
+              <div class="new__prices">
+                <span class="new__price">S/24.90</span>
+                <span class="new__discount">S/28.99</span>
+              </div>
+
+              <button class="button new__button">
+                <i class="bx bx-cart-alt new__icon"></i>
+              </button>
+            </div>
+
+            <div class="new__content swiper-slide">
+              <div class="new__tag">Nuevo</div>
+              <img src="img/nuevo5.png" alt="" class="new__img" />
+              <h3 class="new__title">Delineador para ojos</h3>
+              <span class="new__subtitle">plumón</span>
+
+              <div class="new__prices">
+                <span class="new__price">S/25.90</span>
+                <span class="new__discount">S/30.90</span>
+              </div>
+
+              <button class="button new__button">
+                <i class="bx bx-cart-alt new__icon"></i>
+              </button>
+            </div>
+
+            <div class="new__content swiper-slide">
+              <div class="new__tag">Nuevo</div>
+              <img src="img/nuevo6.png" alt="" class="new__img" />
+              <h3 class="new__title">Body Blender</h3>
+              <span class="new__subtitle">Pack</span>
+
+              <div class="new__prices">
+                <span class="new__price">S/7.90</span>
+                <span class="new__discount">S/10.90</span>
+              </div>
+
+              <button class="button new__button">
+                <i class="bx bx-cart-alt new__icon"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Suscribirse-->
+    <section class="section newsletter">
+      <div class="newsletter__container container">
+        <h2 class="section__title">Subscribete</h2>
+        <p class="newsletter__description">
+          Ingrese tu email y obten mejores descuentos y notificaciones.
+        </p>
+
+        <form action="" class="newsletter__form">
+          <input type="text" placeholder="Enter your email" class="newsletter__input" />
+          <button class="button">Subscribete</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--Pie de pagina-->
+  <footer class="footer section">
+    <div class="footer__container container grid">
+      <div class="footer__content">
+        <a href="#" class="footer__logo">
+          <img src="img/logo.png" alt="" class="footer__logo-img" />
+          Make Up
+        </a>
+
+        <p class="footer__description">
+          Siempre ofreciendo los mejores<br />
+          productos y precios.
+        </p>
+
+        <div class="footer__social">
+          <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+            <i class="bx bxl-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+            <i class="bx bxl-instagram-alt"></i>
+          </a>
+          <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+            <i class="bx bxl-twitter"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Nosotros</h3>
+
+        <ul class="footer__links">
+          <li>
+            <a href="#" class="footer__link">Sobre Nosotros</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Libro de reclamaciones</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Nuevo</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Nuestro Servicio</h3>
+
+        <ul class="footer__links">
+          <li>
+            <a href="#" class="footer__link">Promociones</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Descuentos</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Productos</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Nuestra compañia</h3>
+
+        <ul class="footer__links">
+          <li>
+            <a href="#" class="footer__link">Blog</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Nosotros</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Nuestra misión</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <span class="footer__copy">&#169; Make Up paginá</span>
+
+    <img src="img/footer2.png" alt="" class="footer__img-one" />
+    <img src="img/footer1.png" alt="" class="footer__img-two" />
+  </footer>
+
+  <!-- #endregion -->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+  </a>
+
+  <!--Scroll para que se revelen los elementos de forma suave-->
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+  <!--Deslizar elementos en una lista-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
